@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TrueClean Solutions LLC — Professional pressure washing, window cleaning, and exterior cleaning in Pittsburgh, PA. Get a free quote today." />
+  <title>TrueClean Solutions LLC | Pittsburgh Exterior Cleaning</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">TrueClean<span>Solutions</span></a>
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#before-after">Gallery</a>
+        <a href="#contact" class="btn btn-sm">Free Quote</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">&#9776;</button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#services" onclick="closeMenu()">Services</a>
+      <a href="#why-us" onclick="closeMenu()">Why Us</a>
+      <a href="#before-after" onclick="closeMenu()">Gallery</a>
+      <a href="#contact" onclick="closeMenu()">Free Quote</a>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-eyebrow">Pittsburgh's Trusted Exterior Cleaners</p>
+      <h1>Your Home Deserves<br />to Look Its Best</h1>
+      <p class="hero-sub">Professional pressure washing, window cleaning, and exterior cleaning services in Pittsburgh, PA. Results you'll be proud of — guaranteed.</p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+        <a href="tel:4129988157" class="btn btn-outline">Call (412) 998-8157</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TRUST BAR ===== -->
+  <section class="trust-bar">
+    <div class="container trust-inner">
+      <div class="trust-item">
+        <span class="trust-icon">&#10003;</span>
+        <span>Licensed &amp; Insured</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">&#10003;</span>
+        <span>Free Estimates</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">&#10003;</span>
+        <span>Satisfaction Guaranteed</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-icon">&#10003;</span>
+        <span>Pittsburgh Local</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">What We Do</p>
+        <h2>Our Services</h2>
+        <p class="section-sub">From driveways to rooftops, we handle every inch of your home's exterior with care and precision.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <!-- Replace src with your own photo later -->
+          <div class="service-img service-img-1"></div>
+          <div class="service-body">
+            <h3>Pressure Washing</h3>
+            <p>Blast away years of dirt, grime, mold, and mildew from any exterior surface. Driveways, siding, decks, fences, and more.</p>
+            <a href="#contact" class="link-arrow">Get a Quote &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-img service-img-2"></div>
+          <div class="service-body">
+            <h3>Window Cleaning</h3>
+            <p>Crystal-clear windows inside and out. We leave no streaks, no spots — just a spotless view every time.</p>
+            <a href="#contact" class="link-arrow">Get a Quote &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-img service-img-3"></div>
+          <div class="service-body">
+            <h3>Driveway Cleaning</h3>
+            <p>Restore your driveway's original look. We remove oil stains, rust, algae, and built-up grime for a fresh finish.</p>
+            <a href="#contact" class="link-arrow">Get a Quote &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-img service-img-4"></div>
+          <div class="service-body">
+            <h3>Patio &amp; Deck Cleaning</h3>
+            <p>Get your outdoor living space summer-ready. We safely clean wood, composite, concrete, and stone surfaces.</p>
+            <a href="#contact" class="link-arrow">Get a Quote &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-img service-img-5"></div>
+          <div class="service-body">
+            <h3>Full Exterior Cleaning</h3>
+            <p>Our complete package covers your home's entire exterior — siding, gutters, windows, driveway, and more.</p>
+            <a href="#contact" class="link-arrow">Get a Quote &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card service-card-cta">
+          <div class="service-cta-inner">
+            <h3>Not sure what you need?</h3>
+            <p>Call or text us and we'll figure it out together — no pressure.</p>
+            <a href="tel:4129988157" class="btn btn-primary">Call (412) 998-8157</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="section section-alt" id="why-us">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Why TrueClean</p>
+        <h2>The TrueClean Difference</h2>
+        <p class="section-sub">We treat every property like our own — with the attention to detail and professionalism you deserve.</p>
+      </div>
+      <div class="why-grid">
+
+        <div class="why-card">
+          <div class="why-icon">&#128293;</div>
+          <h3>High-Powered Results</h3>
+          <p>Professional-grade equipment that removes what homeowner tools can't. We get it clean the first time.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">&#128736;</div>
+          <h3>Experienced Technicians</h3>
+          <p>Skilled professionals who know the right pressure, technique, and solution for every surface type.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">&#9989;</div>
+          <h3>Satisfaction Guaranteed</h3>
+          <p>If you're not happy with the results, we'll make it right — no questions asked.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">&#128205;</div>
+          <h3>Pittsburgh Local</h3>
+          <p>We live and work right here in Pittsburgh. Fast scheduling, local knowledge, community trusted.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">&#128179;</div>
+          <h3>Fair, Upfront Pricing</h3>
+          <p>No hidden fees. No surprises. We give you a clear quote before any work begins.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">&#127775;</div>
+          <h3>Attention to Detail</h3>
+          <p>We don't rush. We don't cut corners. Every job is finished to a high standard — every time.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BEFORE / AFTER ===== -->
+  <section class="section" id="before-after">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Real Results</p>
+        <h2>Before &amp; After</h2>
+        <p class="section-sub">See the TrueClean difference. These are real properties we've transformed right here in Pittsburgh.</p>
+      </div>
+
+      <!--
+        HOW TO ADD YOUR PHOTOS:
+        1. Save your before/after photos in an /images/ folder
+        2. Replace the placeholder divs below with:
+           <img src="images/before1.jpg" alt="Before cleaning" />
+           <img src="images/after1.jpg" alt="After cleaning" />
+      -->
+
+      <div class="gallery-grid">
+
+        <div class="gallery-pair">
+          <div class="gallery-item">
+            <div class="photo-placeholder">
+              <span>BEFORE</span>
+              <p>Add your photo here</p>
+            </div>
+            <div class="gallery-label before-label">Before</div>
+          </div>
+          <div class="gallery-item">
+            <div class="photo-placeholder photo-placeholder-after">
+              <span>AFTER</span>
+              <p>Add your photo here</p>
+            </div>
+            <div class="gallery-label after-label">After</div>
+          </div>
+        </div>
+
+        <div class="gallery-pair">
+          <div class="gallery-item">
+            <div class="photo-placeholder">
+              <span>BEFORE</span>
+              <p>Add your photo here</p>
+            </div>
+            <div class="gallery-label before-label">Before</div>
+          </div>
+          <div class="gallery-item">
+            <div class="photo-placeholder photo-placeholder-after">
+              <span>AFTER</span>
+              <p>Add your photo here</p>
+            </div>
+            <div class="gallery-label after-label">After</div>
+          </div>
+        </div>
+
+        <div class="gallery-pair">
+          <div class="gallery-item">
+            <div class="photo-placeholder">
+              <span>BEFORE</span>
+              <p>Add your photo here</p>
+            </div>
+            <div class="gallery-label before-label">Before</div>
+          </div>
+          <div class="gallery-item">
+            <div class="photo-placeholder photo-placeholder-after">
+              <span>AFTER</span>
+              <p>Add your photo here</p>
+            </div>
+            <div class="gallery-label after-label">After</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="contact-layout">
+
+        <div class="contact-info">
+          <p class="section-eyebrow">Get In Touch</p>
+          <h2>Request Your Free Quote</h2>
+          <p>Ready for a cleaner home? Fill out the form or reach out directly — we respond fast.</p>
+
+          <div class="contact-details">
+            <div class="contact-detail">
+              <span class="detail-icon">&#128222;</span>
+              <div>
+                <strong>Phone / Text</strong>
+                <a href="tel:4129988157">(412) 998-8157</a>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <span class="detail-icon">&#9993;</span>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:truecleanpgh@gmail.com">truecleanpgh@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <span class="detail-icon">&#128205;</span>
+              <div>
+                <strong>Location</strong>
+                <span>Pittsburgh, PA &amp; Surrounding Areas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contact-form" onsubmit="handleSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="John Smith" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" placeholder="(412) 555-1234" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" />
+            </div>
+            <div class="form-group">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service">
+                <option value="">Select a service...</option>
+                <option value="pressure-washing">Pressure Washing</option>
+                <option value="window-cleaning">Window Cleaning</option>
+                <option value="driveway-cleaning">Driveway Cleaning</option>
+                <option value="patio-cleaning">Patio / Deck Cleaning</option>
+                <option value="full-exterior">Full Exterior Cleaning</option>
+                <option value="not-sure">Not Sure — Need Advice</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell Us About Your Project</label>
+              <textarea id="message" name="message" rows="4" placeholder="Describe your property, what needs cleaning, any special considerations..."></textarea>
+            </div>
+
+            <!-- SMS CONSENT CHECKBOX -->
+            <div class="form-group consent-group">
+              <label class="checkbox-label">
+                <input type="checkbox" id="sms-consent" name="sms-consent" required />
+                <span>I agree to receive SMS messages from TrueClean Solutions LLC.</span>
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">Send My Free Quote Request</button>
+
+            <!-- SMS DISCLOSURE (required for A2P) -->
+            <p class="sms-disclosure">
+              By submitting your information, you consent to receive SMS messages from TrueClean Solutions LLC at the phone number provided, including messages about your quote, appointment reminders, and promotions. Message and data rates may apply. Message frequency may vary. Reply STOP to opt out at any time. Reply HELP for assistance. Your information will not be shared with third parties for marketing purposes. View our <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a>.
+            </p>
+          </form>
+
+          <div class="form-success" id="form-success" style="display:none;">
+            <div class="success-icon">&#10003;</div>
+            <h3>Request Received!</h3>
+            <p>Thanks for reaching out. We'll contact you within 24 hours with your free quote. You can also call or text us directly at <a href="tel:4129988157">(412) 998-8157</a>.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo logo-light">TrueClean<span>Solutions</span></a>
+        <p>Pittsburgh's trusted exterior cleaning professionals. Serving Pittsburgh, PA and surrounding areas.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="#services">Services</a>
+        <a href="#why-us">Why Choose Us</a>
+        <a href="#before-after">Gallery</a>
+        <a href="#contact">Get a Quote</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <a href="tel:4129988157">(412) 998-8157</a>
+        <a href="mailto:truecleanpgh@gmail.com">truecleanpgh@gmail.com</a>
+        <span>Pittsburgh, PA</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 TrueClean Solutions LLC. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
