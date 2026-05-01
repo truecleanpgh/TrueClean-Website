@@ -37,8 +37,8 @@
     <div class="hero-overlay"></div>
     <div class="container hero-content">
       <p class="hero-eyebrow">Pittsburgh's Trusted Exterior Cleaners</p>
-      <h1>Your Home Deserves<br />to Look Its Best</h1>
-      <p class="hero-sub">Professional pressure washing, window cleaning, and exterior cleaning services in Pittsburgh, PA. Results you'll be proud of — guaranteed.</p>
+      <h1>Pittsburgh's #1<br>Pressure Washing &<br>Window Cleaning</h1>
+      <p class="hero-sub">Get your home looking brand new in just 1 day. Pressure washing, window cleaning, and exterior cleaning in Pittsburgh. 100% satisfaction guaranteed.</p>
       <div class="hero-ctas">
         <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
         <a href="tel:4129988157" class="btn btn-outline">Call (412) 998-8157</a>
@@ -109,8 +109,8 @@
         <div class="service-card">
           <div class="service-img service-img-4"></div>
           <div class="service-body">
-            <h3>Patio &amp; Deck Cleaning</h3>
-            <p>Get your outdoor living space summer-ready. We safely clean wood, composite, concrete, and stone surfaces.</p>
+            <h3>Gutter Brightening</h3>
+            <p>Restore your gutters to a like-new finish. We remove tiger striping, dirt, and oxidation buildup for a clean, bright look.</p>
             <a href="#contact" class="link-arrow">Get a Quote &rarr;</a>
           </div>
         </div>
@@ -207,51 +207,33 @@
 
         <div class="gallery-pair">
           <div class="gallery-item">
-            <div class="photo-placeholder">
-              <span>BEFORE</span>
-              <p>Add your photo here</p>
-            </div>
+            <img src="images/before-1.jpg" alt="Before cleaning">
             <div class="gallery-label before-label">Before</div>
           </div>
           <div class="gallery-item">
-            <div class="photo-placeholder photo-placeholder-after">
-              <span>AFTER</span>
-              <p>Add your photo here</p>
-            </div>
+            <img src="images/after-1.jpg" alt="After cleaning">
             <div class="gallery-label after-label">After</div>
           </div>
         </div>
 
         <div class="gallery-pair">
           <div class="gallery-item">
-            <div class="photo-placeholder">
-              <span>BEFORE</span>
-              <p>Add your photo here</p>
-            </div>
+            <img src="images/before-2.jpg" alt="Before cleaning">
             <div class="gallery-label before-label">Before</div>
           </div>
           <div class="gallery-item">
-            <div class="photo-placeholder photo-placeholder-after">
-              <span>AFTER</span>
-              <p>Add your photo here</p>
-            </div>
+            <img src="images/after-2.jpg" alt="After cleaning">
             <div class="gallery-label after-label">After</div>
           </div>
         </div>
 
         <div class="gallery-pair">
           <div class="gallery-item">
-            <div class="photo-placeholder">
-              <span>BEFORE</span>
-              <p>Add your photo here</p>
-            </div>
+            <img src="images/before-3.jpg" alt="Before cleaning">
             <div class="gallery-label before-label">Before</div>
           </div>
           <div class="gallery-item">
-            <div class="photo-placeholder photo-placeholder-after">
-              <span>AFTER</span>
-              <p>Add your photo here</p>
-            </div>
+            <img src="images/after-3.jpg" alt="After cleaning">
             <div class="gallery-label after-label">After</div>
           </div>
         </div>
@@ -296,7 +278,9 @@
         </div>
 
         <div class="contact-form-wrap">
-          <form class="contact-form" id="contact-form" onsubmit="handleSubmit(event)">
+          <form action="https://formspree.io/f/mykoynvk" method="POST">
+            <input type="hidden" name="_subject" value="New Quote Request - TrueClean">
+            <input type="hidden" name="_next" value="https://true-clean-website.vercel.app/thank-you.html">
             <div class="form-row">
               <div class="form-group">
                 <label for="name">Full Name *</label>
